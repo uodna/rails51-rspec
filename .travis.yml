@@ -1,7 +1,6 @@
 language: ruby
 services:
   - mysql
-before_script:
-  - bin/rails db:create
-  - bin/rails db:migrate
+before_install:
+  - mysql -e 'CREATE DATABASE `rails51-rspec_test`;'
 script: bin/rspec
