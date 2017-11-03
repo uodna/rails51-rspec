@@ -41,6 +41,10 @@ group :development, :test do
   gem 'selenium-webdriver'
 
   gem 'factory_bot_rails'
+  gem 'pry-byebug'
+  gem 'pry-doc'
+  gem 'pry-rails'
+  gem 'rails-controller-testing'
   gem 'rspec-rails'
 end
 
