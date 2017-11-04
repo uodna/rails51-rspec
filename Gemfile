@@ -40,6 +40,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
 
+  gem 'chromedriver-helper'
   gem 'factory_bot_rails'
   gem 'pry-byebug'
   gem 'pry-doc'
